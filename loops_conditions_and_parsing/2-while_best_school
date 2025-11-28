@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Printing "Best School" with while loop
 x=0
-while [ $x -lt 10 ]; do
+while [ $x -lt 10 ]
+do
 	echo "Best School"
 	x = $((x+1))
 done
