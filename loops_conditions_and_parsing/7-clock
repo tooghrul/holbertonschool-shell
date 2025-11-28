@@ -3,12 +3,14 @@
 h=0
 m=0
 
-while [ $m -lt 60]; do
-	echo $m
-	m=$((m+1))
-done
-
 while [ $h -le 12 ]; do
-	echo $h
+	if [ $m -eq 0 ]; then
+		echo "Hour: $h"
+		m=$((m+1))
+	fi
+	while [ $m -le 59 ]; do
+		echo $m
+	done
 	h=$((h+1))
-done
+	m=0
+done	
