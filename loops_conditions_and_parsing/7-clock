@@ -10,6 +10,7 @@ while [ $h -le 12 ]; do
 	fi
 	while [ $m -le 59 ]; do
 		echo $m
+		m=$((m+1))
 	done
 	h=$((h+1))
 	m=0
