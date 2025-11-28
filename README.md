@@ -1,3 +1,3 @@
 # holbertonschool-shell
 
-##0-alias
+#0-alias
