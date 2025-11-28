@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#Using while and if
+x=0
+while [ $x -gt 9 ]
+do
+	echo "Best School"
+	if [ $x -e 8 ]; then
+		echo "Hi"
+	fi
+	x=$((x+1))
+done
