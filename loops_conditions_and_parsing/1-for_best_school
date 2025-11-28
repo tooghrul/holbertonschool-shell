@@ -1,2 +1,3 @@
-#!/bin/bash
+#!/usr/bin/env bash
+# It will print "Best school" 10 times, thinking of using brace expansion
 for i in {1..10}; do echo "Best School"; done
